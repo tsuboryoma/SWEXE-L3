@@ -16,7 +16,7 @@ Rails.application.configure do
 
   # Enable server timing
   config.server_timing = true
-
+  config.hosts << "6cdb9bc93b634584af9342a5db997b05.vfs.cloud9.us-east-1.amazonaws.com"
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
   if Rails.root.join("tmp/caching-dev.txt").exist?

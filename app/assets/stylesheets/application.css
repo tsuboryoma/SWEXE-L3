@@ -13,3 +13,104 @@
  *= require_tree .
  *= require_self
  */
+#container{
+    width:1000px;
+    margin: 0 auto;
+}
+#sidebar{
+    float: left;
+    width:200px;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    position: sticky;
+}
+
+#header{
+    width:600px;
+    float: right;
+    margin:20px 50px 20px 100px;
+    
+}
+
+#content{
+    width:600px;
+    float: right;
+    
+    
+}
+
+.tweet-box {
+    border: 1px solid #E7E7E8; /* 枠の色と太さを設定 */
+    margin: 10px; /* 内側の余白を設定 */
+    margin:0;
+    margin-bottom: 10px; /* 要素間の余白を設定 */
+}
+
+
+
+.header_link{
+    text-decoration: none;  /* 下線を削除 */
+    color: black;
+    margin:0px;
+    padding:10px 20px 10px 20px;
+}
+
+.action-link{
+    text-decoration: none;
+    margin:0px 20px 0px 0px;
+    padding:0px 5px 0px 5px;
+    border: 1px solid #E7E7E8;
+    border-radius: 40px; /* 角を丸くする */
+    background-color: #E7E7E8;
+    color:black;
+}
+
+.action-link:hover {
+    background-color: #a9a9a9;
+    
+}
+
+.header_link:hover {
+     background-color: #E7E7E8;
+}
+
+
+.custom-link {
+    padding:10px;
+    color: black;  /* テキストの色を青に設定 */
+    text-decoration: none;  /* 下線を削除 */
+    text-align:center;
+    display: flex;
+    align-items: center; /* 子要素を垂直に中央揃え */
+    border-radius: 40px; /* 角を丸くする */
+}
+
+.custom-link:hover {
+    background-color: #E7E7E8;
+}
+
+.hovered-icon {
+    display: none;
+}
+.custom-link:hover .hovered-icon {
+    display: inline-block;
+}
+.custom-link:hover .default-icon {
+    display: none;
+}
+
+.button-style {
+    display: inline-block;
+    padding: 10px 80px;
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.button-style:hover {
+    background-color: #2980b9;
+}
